@@ -9,7 +9,7 @@ export function NavBar(){
           <span className="inline-block h-8 w-8">
             <VakyaLogoComponent className="rounded-md" />
           </span>
-          <span className="font-semibold tracking-wider text-2xl text-primary">{APP.eng_name}</span>
+          <span className="font-semibold text-2xl bg-linear-to-r from-blue-500 via-blue-700 to-indigo-900 bg-clip-text text-transparent tracking-widest">{APP.eng_name}</span>
         </a>
       </nav>
   );

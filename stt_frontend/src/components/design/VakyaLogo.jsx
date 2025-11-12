@@ -5,7 +5,7 @@ export const VakyaLogoComponent = ({ className = "" }) => {
             <img
                 src={VakyaLogoImage}
                 alt="Vakya Logo"
-                className={`block ${className}`}
+                className={`block brightness-125 border-[.5px] ${className}`}
             />
     );
 };
